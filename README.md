@@ -22,7 +22,7 @@ Extra options that can be added to the URL to customize the access to the conten
     &urlpath=/lab/tree/<git-content-repo-root>/<full-path-to-file>
 
 
-The recommended (and simpler) way is to the use [nbgitpuller.link](http://nbgitpuller.link) online tool to generate this composite URL.
+The recommended (and simpler) way is to the use [nbgitpuller.link](http://nbgitpuller.link?tab=binder) online tool to generate this composite URL.
 
 The Binder SVG Badge ![Binder](https://mybinder.org/badge.svg) link: https://mybinder.org/badge.svg
 
