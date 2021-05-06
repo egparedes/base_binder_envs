@@ -5,7 +5,7 @@ Base Binder environments to be used together with [nbgitpuller](https://github.c
 
 To open another GitHub repo as interactive content on Binder using this repository as base environment, use an URL link like: 
 
-`https://mybinder.org/v2/gh/<gh-user-name>/<base-repo-name>.git/<branch_name>master?urlpath=git-pull?repo=<git-content-repo-url>
+`https://mybinder.org/v2/gh/<gh-user-name>/<base-repo-name>.git/<branch_name>master?urlpath=git-pull?repo=<git-content-repo-url>`
 
 Extra options that can be added to the URL to customize the access to the content repo:
 
