@@ -17,7 +17,7 @@ cat > ./.jupyter/lab/user-settings/@ryantam626/jupyterlab_code_formatter/setting
 EOF
 
 mkdir -p ./.jupyter/lab/user-settings/@jupyterlab/shortcuts-extension/
-cat ./.jupyter/lab/user-settings/@jupyterlab/shortcuts-extension/shortcuts.jupyterlab-settings << EOF
+cat > ./.jupyter/lab/user-settings/@jupyterlab/shortcuts-extension/shortcuts.jupyterlab-settings << EOF
 {
     "shortcuts": [
         {
