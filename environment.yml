@@ -8,25 +8,26 @@ dependencies:
   - numpy >=1.18
   - python >=3.8
   - scipy
+  # Extra
+  - bokeh
+  - ipympl
+  - ipywidgets
+  - itkwidgets
+  - jupyter_bokeh
+  - matplotlib
+  - pandas
+  - pyvista
+  - seaborn
   - pip:
     - black
-    - bokeh
     - cmocean
     - colorcet
-    - imageio>=2.5.0
+    - imageio
     - imageio-ffmpeg
     - ipycanvas
-    - ipympl
-    - ipywidgets
     - ipyvtk-simple
     - isort
-    - itkwidgets
-    - jupyter_bokeh
     - jupyterlab_code_formatter
-    - matplotlib
     - nbgitpuller
     - openmesh
-    - pandas
     - pyct
-    - pyvista
-    - seaborn
