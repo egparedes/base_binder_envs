@@ -8,7 +8,17 @@ dependencies:
   - numpy >=1.18
   - scipy
   - jupyterlab_code_formatter
+  - ipywidgets
+  - matplotlib
+  - ipympl
+  - seaborn
+  - bokeh
+  - jupyter_bokeh
+  - pyvista
+  - itkwidgets
+  - ipycanvas
   - pip:
     - nbgitpuller
     - black
     - isort
+    - openmesh
