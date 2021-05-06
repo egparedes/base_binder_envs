@@ -1,7 +1,9 @@
+## General instructions
+
 Base Binder environments to be used together with [nbgitpuller](https://github.com/jupyterhub/nbgitpuller) to reduce Binder launch time (as explained in this [blog post](https://discourse.jupyter.org/t/tip-speed-up-binder-launches-by-pulling-github-content-in-a-binder-link-with-nbgitpuller/922)).
 
 
-## Using this repository as base environment for Binder
+### Using this repository as base environment for Binder
 
 To open another GitHub repo as interactive content on Binder using this repository as base environment, use an URL link like: 
 
