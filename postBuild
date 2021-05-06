@@ -1,0 +1,3 @@
+#!/bin/bash
+## postBuild configuration script for Binder (https://mybinder.org/)
+jupyter serverextension enable --py nbgitpuller --sys-prefix

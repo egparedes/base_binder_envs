@@ -1,0 +1,2 @@
+# run: pip install -r requirements.txt
+#nbgitpuller  ## Add this if not using conda environment.yml
