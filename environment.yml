@@ -6,5 +6,8 @@ dependencies:
   - cmake
   - numpy
   - scipy
+  - jupyterlab_code_formatter
   - pip:
     - nbgitpuller
+    - black
+    - isort
