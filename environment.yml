@@ -3,8 +3,9 @@ name: binder-coda-environment
 channels:
   - conda-forge
 dependencies:
+  - python >=3.8
   - cmake
-  - numpy
+  - numpy >=1.18
   - scipy
   - jupyterlab_code_formatter
   - pip:
