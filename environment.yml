@@ -3,22 +3,30 @@ name: binder-coda-environment
 channels:
   - conda-forge
 dependencies:
-  - python >=3.8
   - cmake
+  - lxml
   - numpy >=1.18
+  - python >=3.8
   - scipy
-  - jupyterlab_code_formatter
-  - ipywidgets
-  - matplotlib
-  - ipympl
-  - seaborn
-  - bokeh
-  - jupyter_bokeh
-  - pyvista
-  - itkwidgets
-  - ipycanvas
   - pip:
-    - nbgitpuller
     - black
+    - bokeh
+    - cmocean
+    - colorcet
+    - imageio>=2.5.0
+    - imageio-ffmpeg
+    - ipycanvas
+    - ipympl
+    - ipywidgets
+    - ipyvtk-simple
     - isort
+    - itkwidgets
+    - jupyter_bokeh
+    - jupyterlab_code_formatter
+    - matplotlib
+    - nbgitpuller
     - openmesh
+    - pandas
+    - pyct
+    - pyvista
+    - seaborn
