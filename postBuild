@@ -1,3 +1,34 @@
 #!/bin/bash
 ## postBuild configuration script for Binder (https://mybinder.org/)
 jupyter serverextension enable --py nbgitpuller --sys-prefix
+
+# Configure jupyterlab_code_formatter extensions
+mkdir -p ./.jupyter/lab/user-settings/@ryantam626/jupyterlab_code_formatter/
+cat > ./.jupyter/lab/user-settings/@ryantam626/jupyterlab_code_formatter/settings.jupyterlab-settings << EOF
+{
+   "formatOnSave": true,
+   "preferences": {
+        "default_formatter": {
+            "python": ["isort", "black"],
+        }
+    }
+}
+
+EOF
+
+mkdir -p ./.jupyter/lab/user-settings/@jupyterlab/shortcuts-extension/
+cat ./.jupyter/lab/user-settings/@jupyterlab/shortcuts-extension/shortcuts.jupyterlab-settings << EOF
+{
+    "shortcuts": [
+        {
+            "command": "jupyterlab_code_formatter:black",
+            "keys": [
+                "Ctrl K",
+                "Ctrl M"
+            ],
+            "selector": ".jp-Notebook.jp-mod-editMode"
+        }
+    ]
+}
+
+EOF
