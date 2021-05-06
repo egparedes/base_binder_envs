@@ -3,11 +3,11 @@ Base Binder environments to be used together with [nbgitpuller](https://github.c
 
 ## Using this repository as base environment for Binder
 
-To open another GitHub repo as interactive content on Binder using this repository as base environment use URL link like: 
+To open another GitHub repo as interactive content on Binder using this repository as base environment, use an URL link like: 
 
 `https://mybinder.org/v2/gh/<gh-user-name>/<base-repo-name>.git/<branch_name>master?urlpath=git-pull?repo=<git-content-repo-url>
 
-Extra options that can be added to URL to customize aspects of the access to the content repo are:
+Extra options that can be added to the URL to customize the access to the content repo:
 
     # Select content-repo branch
     &branch=<git-content-branch>
@@ -21,15 +21,14 @@ Extra options that can be added to URL to customize aspects of the access to the
     # Open a specific file in JupyterLab
     &urlpath=/lab/tree/<git-content-repo-root>/<full-path-to-file>
 
-[nbgitpuller.link](http://nbgitpuller.link) is an online tool to generate this composite URL easily.
 
-![Binder](https://mybinder.org/badge.svg)] Binder SVG Badge: https://mybinder.org/badge.svg
+The recommended (and simpler) way is to the use [nbgitpuller.link](http://nbgitpuller.link) online tool to generate this composite URL.
+
+The Binder SVG Badge ![Binder](https://mybinder.org/badge.svg) link: https://mybinder.org/badge.svg
 
 
 ### Regular Binder opening
 
-To open a GitHub repo on Binder normally use an URL link like: `https://mybinder.org/v2/gh/gh_user_name/repo_name.git/branch_name`
+To open a GitHub repo on Binder normally use an URL link like: `https://mybinder.org/v2/gh/<gh-user-name>/<repo-name>.git/<branch_name>`
 
 Example: [https://mybinder.org/v2/gh/egparedes/base_binder_envs.git/master](https://mybinder.org/v2/gh/egparedes/base_binder_envs.git/master)
-
-Badge: [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/egparedes/base_binder_envs.git/master)
