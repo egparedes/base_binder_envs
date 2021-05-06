@@ -2,7 +2,7 @@
 
 Base Binder environment with several visualization packages.
 
-Launch your content repo using [nbgitpuller.link]([nbgitpuller.link](http://nbgitpuller.link?tab=binder&repo=https://github.com/egparedes/base_binder_envs&branch=visualization)
+Launch your content repo using [nbgitpuller.link](http://nbgitpuller.link?tab=binder&repo=https://github.com/egparedes/base_binder_envs&branch=visualization)
 
 
 
