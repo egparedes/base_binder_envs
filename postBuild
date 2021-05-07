@@ -2,6 +2,11 @@
 ## postBuild configuration script for Binder (https://mybinder.org/)
 jupyter serverextension enable --py nbgitpuller --sys-prefix
 
+# Install jupyterlab extensions
+jupyter labextension install @jupyter-widgets/jupyterlab-manager itkwidgets # jupyter-matplotlib jupyterlab-datawidgets 
+jupyter labextension install @jupyter-widgets/jupyterlab-manager ipycanvas
+jupyter labextension install @jupyter-widgets/jupyterlab-manager ipyevents
+
 # Configure jupyterlab_code_formatter extensions
 mkdir -p ./.jupyter/lab/user-settings/@ryantam626/jupyterlab_code_formatter/
 cat > ./.jupyter/lab/user-settings/@ryantam626/jupyterlab_code_formatter/settings.jupyterlab-settings << EOF
