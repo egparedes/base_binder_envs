@@ -24,6 +24,7 @@ dependencies:
   - jupyter_bokeh
   - matplotlib
   - pandas
+  - pyembree
   - pyvista
   - seaborn
   - pip:
@@ -36,7 +37,6 @@ dependencies:
     - nbgitpuller
     - openmesh
     - pyct
-    - pyembree
     - rtree
     - tqdm
     - trimesh
