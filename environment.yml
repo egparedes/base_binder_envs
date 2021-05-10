@@ -19,22 +19,21 @@ dependencies:
   - ipyevents
   - ipympl
   - ipyvtklink
-  - ipywidgets=7.5
-  - itkwidgets=0.32
+  - ipywidgets >=7.5
+  - itkwidgets >=0.32
   - jupyter_bokeh
-  - jupyterlab=2.2.9
+  - jupyterlab >=2.2.9
   - jupyterlab_widgets
   - matplotlib
   - pandas
   - pip
   - pyembree
-  - pyvista=0.27
+  - pyvista >=0.27
   - seaborn
   - pip:
     - black
     - cmocean
     - colorcet
-    #- ipyvtk-simple
     - isort
     - jupyterlab_code_formatter
     - nbgitpuller
