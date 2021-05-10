@@ -12,7 +12,7 @@ dependencies:
   - scipy
   - vtk
   # Extra
-  - bokeh 
+  - bokeh
   - imageio
   - imageio-ffmpeg
   - ipycanvas
