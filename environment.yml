@@ -1,5 +1,5 @@
 # run: conda env create --file environment.yml
-name: binder-coda-environment
+name: scivis-binder-env
 channels:
   - conda-forge
   - defaults
@@ -25,6 +25,7 @@ dependencies:
   - jupyterlab_widgets
   - matplotlib
   - pandas
+  - pip
   - pyembree
   - pyvista
   - seaborn
