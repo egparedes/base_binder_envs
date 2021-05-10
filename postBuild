@@ -3,9 +3,7 @@
 jupyter serverextension enable --py nbgitpuller --sys-prefix
 
 # Install jupyterlab extensions
-jupyter labextension install @jupyter-widgets/jupyterlab-manager itkwidgets # jupyter-matplotlib jupyterlab-datawidgets 
-jupyter labextension install @jupyter-widgets/jupyterlab-manager ipycanvas
-jupyter labextension install @jupyter-widgets/jupyterlab-manager ipyevents
+jupyter labextension install @jupyter-widgets/jupyterlab-manager@2.0 itkwidgets@0.32.0 ipycanvas@0.6.1 ipyevents@1.8.1
 
 # Configure jupyterlab_code_formatter extensions
 mkdir -p ./.jupyter/lab/user-settings/@ryantam626/jupyterlab_code_formatter/
