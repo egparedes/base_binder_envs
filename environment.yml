@@ -1,5 +1,5 @@
 # run: conda env create --file environment.yml
-name: binder-coda-environment
+name: base-binder-env
 channels:
   - conda-forge
   - defaults
@@ -9,6 +9,7 @@ dependencies:
   - numpy >=1.18
   - python >=3.8
   - pandas
+  - pip
   - scipy
   - pip:
     - black
