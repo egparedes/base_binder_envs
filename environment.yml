@@ -2,6 +2,7 @@
 name: scivis-binder-env
 channels:
   - conda-forge
+  - pyviz
   - defaults
 dependencies:
   - cmake
@@ -26,6 +27,7 @@ dependencies:
   - jupyterlab_widgets
   - matplotlib
   - pandas
+  - panel
   - pip
   - pyembree
   - pyvista >=0.27
